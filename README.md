@@ -1,59 +1,120 @@
-# Store
+# 🎮 PlayStation Store Clone
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.19.
+Uma aplicação desenvolvida em **Angular** inspirada na interface da PlayStation Store. O objetivo do projeto é praticar os principais conceitos do Angular, como componentização, comunicação entre componentes e data binding, enquanto evolui para uma aplicação completa para compor meu portfólio.
 
-## Development server
+> ⚠️ Este projeto está em desenvolvimento e receberá novas funcionalidades nas próximas etapas.
 
-To start a local development server, run:
+## 📸 Preview
+
+> Adicione aqui um print da aplicação.
+
+<!-- Exemplo -->
+[Preview](./docs/images/preview.png)
+
+---
+
+## ✨ Funcionalidades
+
+- Interface inspirada na PlayStation Store
+- Componentes reutilizáveis
+- Cards de jogos
+- Labels personalizadas
+- Exibição de preço e plataforma
+- Layout responsivo (em evolução)
+
+---
+
+## 🚀 Tecnologias
+
+- Angular 20
+- TypeScript
+- HTML5
+- CSS3
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+src/
+├── app/
+│   ├── components/
+│   │   ├── card/
+│   │   ├── card-label/
+│   │   ├── card-pricing/
+│   │   ├── home/
+│   │   └── menu-bar/
+│   └── app.ts
+│
+public/
+└── images/
+```
+
+---
+
+## ▶️ Executando o projeto
+
+Clone o repositório:
+
+```bash
+git clone <url-do-repositorio>
+```
+
+Entre na pasta:
+
+```bash
+cd store
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute a aplicação:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Abra no navegador:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 📚 Objetivos de aprendizado
 
-## Building
+Este projeto foi criado para praticar:
 
-To build the project run:
+- Componentes Standalone
+- Property Binding
+- Event Binding
+- Data Binding
+- Comunicação entre componentes
+- Organização de componentes
+- Estrutura de projetos Angular
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🛣️ Próximas funcionalidades
 
-## Running unit tests
+- [ ] Hero Banner
+- [ ] Carrossel de jogos
+- [ ] Pesquisa de jogos
+- [ ] Filtro por plataforma
+- [ ] Lista dinâmica de jogos
+- [ ] Integração com API
+- [ ] Backend em ASP.NET Core
+- [ ] Banco de dados SQL Server
+- [ ] Sistema de favoritos
+- [ ] Página de detalhes do jogo
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 👨‍💻 Autor
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Desenvolvido por **Rennan Silva**.
