@@ -1,4 +1,4 @@
-# 🎮 PlayStation Store Clone
+# 🎮 PlayStation Store
 
 Uma aplicação desenvolvida em **Angular** inspirada na interface da PlayStation Store. O objetivo do projeto é praticar os principais conceitos do Angular, como componentização, comunicação entre componentes e data binding, enquanto evolui para uma aplicação completa para compor meu portfólio.
 
