@@ -6,9 +6,6 @@ Uma aplicação desenvolvida em **Angular** inspirada na interface da PlayStatio
 
 ## 📸 Preview
 
-> Adicione aqui um print da aplicação.
-
-<!-- Exemplo -->
 [Preview](./docs/images/preview.png)
 
 ---
