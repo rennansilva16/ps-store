@@ -1,13 +1,9 @@
 <a href="#" class="card__container">
-  <img [src]="[gameCover]" alt="Imagem do console PlayStation 5" srcset="" class="card__img">
+  <img [src]="gameCover" [alt]="gameLabel" class="card__img">
 
-  <app-card-label
-  gameLabel="{{gameLabel}}"
-  >
-  </app-card-label>
-  <app-card-pricing
-  gameType="{{gameType}}"
-  gamePrice="{{gamePrice}}"
-  >
-  </app-card-pricing>
+  <app-card-label [gameLabel]="gameLabel"></app-card-label>
+
+  @if (gameType || gamePrice) {
+  <app-card-pricing [gameType]="gameType" [gamePrice]="gamePrice"></app-card-pricing>
+  }
 </a>

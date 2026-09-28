@@ -1,24 +1,13 @@
 <div class="home__container">
-  <app-card
-  gameCover="images/bt-1.jpg"
-  gameLabel="Exclusive"
-  gameType="PS4"
-  gamePrice="$ 199,99"
-  >
-</app-card>
-<app-card
-  gameCover="images/bt-4.jpg"
-  gameLabel="Digital Edition"
-  gameType="PS4 PS5"
-  gamePrice="$ 299,99"
-  >
-</app-card>
-
-<app-card
-  gameCover="images/bt-bad-company-2.jpg"
-  gameLabel="Digital Edition"
-  gameType="PS4 PS5"
-  gamePrice="$ 299,99"
-  >
-</app-card>
+  @if (isLoading) {
+    <p>Carregando jogos...</p>
+  } @else if(errorMessage) {
+    <p>Erro ao carregar jogos: {{ errorMessage }}</p>
+  }
+  @else {
+    @for(game of games; track game.id){
+      <app-card [gameCover]="game.background_image ?? ''" [gameLabel]="game.name" [gameType]="''" [gamePrice]="''">
+      </app-card>
+    }
+  }
 </div>
