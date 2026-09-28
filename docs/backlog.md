@@ -19,3 +19,6 @@
 - [ ] Criar backend próprio para intermediar a RAWG API
 - [ ] Implementar sistema de pagamento simulado
 - [ ] Criar painel administrativo
+
+## Infraestrutura
+  - [ ] Usar versão do Node suportada. Atualmente está sendo utilizada uma versão não suportada.
